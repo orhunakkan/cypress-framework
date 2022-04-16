@@ -8,11 +8,8 @@ jobs:
       - run:
           name: The First Step
           command: |
-            npx cypress run
-            echo 'Hello World!'
-            echo 'This is the delivery pipeline'
+            npm install
       - run:
           name: The Second Step
           command: |
-            ls -al
-            echo '^^^The files in your repo^^^'
+            npx cypress run
