@@ -9,6 +9,7 @@
   "author": "Orhun Akkan",
   "license": "ISC",
   "dependencies": {
-    "cypress": "^9.5.4"
+    "cypress": "^9.5.4",
+    "mssql": "^8.1.0"
   }
 }
