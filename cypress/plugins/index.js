@@ -2,5 +2,6 @@
 /**
  * @type {Cypress.PluginConfig}
  */
-export default (on, config) => {
+ module.exports = (on, config) => {
+
 }
