@@ -1,5 +1,3 @@
-/// <reference types="cypress" />
-
 // cy.get()
 // To query for the button, use the cy.get() command.
 describe("Querying", () => {
