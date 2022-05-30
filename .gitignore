@@ -132,6 +132,4 @@ Desktop.ini
 cypress/support/aspirionAuthsettings.json
 cypress/support/aspirionAzureLogin.js
 cypress/support/orhunAzureLogin.js
-cypress/support/oktaLogin.js
-cypress/support/oktaLogin.js
 cypress/support/oktaLoginCode.js
