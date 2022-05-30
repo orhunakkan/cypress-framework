@@ -133,3 +133,7 @@ cypress/support/aspirionAuthsettings.json
 cypress/support/aspirionAzureLogin.js
 cypress/support/orhunAzureLogin.js
 cypress/support/oktaLoginCode.js
+cypress/screenshots
+cypress/videos
+cypress/reports
+cypress/parallel-weights.json
