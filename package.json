@@ -21,6 +21,12 @@
   "author": "Orhun Akkan",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^9.7.0"
-  }
+    "cypress": "^10.0.2",
+    "react": "^18.1.0",
+    "react-scripts": "^5.0.1",
+    "webpack": "^5.73.0"
+  },
+  "browserslist": [
+    "defaults"
+  ]
 }
