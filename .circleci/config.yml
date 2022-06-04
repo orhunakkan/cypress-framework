@@ -1,10 +1,10 @@
-version: 2.1
-orbs:
-  cypress: cypress-io/cypress@1
-workflows:
-  build:
-    jobs:
-      - cypress/run:
-          post-steps:
-            - store_artifacts:
-                path: cypress/reports/mocha
+# version: 2.1
+# orbs:
+#   cypress: cypress-io/cypress@1
+# workflows:
+#   build:
+#     jobs:
+#       - cypress/run:
+#           post-steps:
+#             - store_artifacts:
+#                 path: cypress/reports/mocha
