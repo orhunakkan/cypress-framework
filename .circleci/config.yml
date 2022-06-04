@@ -6,5 +6,5 @@ workflows:
     jobs:
       - cypress/run:
           store_artifacts: true
-      - store_test_results:
-          path: cypress/reports/mocha
+          store_test_results:
+            path: cypress/reports/mocha
