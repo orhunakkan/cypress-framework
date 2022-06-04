@@ -17,7 +17,7 @@ The reason I included them in my framework is to refer them quickly without goin
 
 ## RUNNING TESTS
 
-To run API tests -> ```npm run test:api```
-To run UI tests -> ```npm run test:ui```
-To execute tests from the interactive Cypress runner ->```npm run cy:open```
-Tests can be executed in parallel with ```npm run cy:parallel```
+* To run API tests -> ```npm run test:api```
+* To run UI tests -> ```npm run test:ui```
+* To execute tests from the interactive Cypress runner -> ```npm run cy:open```
+* Tests can be executed in parallel with ```npm run cy:parallel```
