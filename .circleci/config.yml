@@ -7,4 +7,4 @@ workflows:
       - cypress/run:
           post-steps:
             - store_artifacts:
-                path: cypress/reports/mocha/*.html
+                path: cypress/reports/mocha
