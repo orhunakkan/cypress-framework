@@ -2,9 +2,32 @@ const { defineConfig } = require("cypress");
 
 module.exports = defineConfig({
   projectId: "chjgqk",
-  responseTimeout: 35000,
+  responseTimeout: 10000,
   viewportWidth: 1920,
   viewportHeight: 1080,
+  // reporter: "mochawesome",
+  // reporterOptions: {
+  //   reporterEnabled: "mochawesome",
+  //   mochawesomeReporterOptions: {
+  //     reportDir: "cypress/reports/mocha",
+  //     quite: true,
+  //     overwrite: false,
+  //     html: false,
+  //     json: true,
+  //   },
+  // },
+  
+  reporter: "cypress-multi-reporters",
+  reporterOptions: {
+    reporterEnabled: "mochawesome",
+    mochawesomeReporterOptions: {
+      reportDir: "cypress/reports/mocha",
+      quite: true,
+      overwrite: false,
+      html: false,
+      json: true,
+    },
+  },
 
   env: {
     mockyBaseURL: "https://run.mocky.io/v3",
